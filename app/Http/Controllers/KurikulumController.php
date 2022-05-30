@@ -71,7 +71,7 @@ class KurikulumController extends Controller
 
         $berkas->delete();
 
-        return redirect('/kurikulum/berkas');
+        return redirect('/kurikulum/berkas')->with('success', 'Berkas Berhasil dihapus');
     }
 
     public function register(Request $request)
@@ -90,7 +90,7 @@ class KurikulumController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        return redirect('/');
+        return redirect('/kurikulum')->with('success', 'Akun Berhasil dibuat!');
     }
     public function exportexcel(){
         return Excel::download(new RekapExport, 'hasilsupervisi.xlsx');

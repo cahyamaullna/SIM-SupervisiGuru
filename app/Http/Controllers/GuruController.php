@@ -60,7 +60,7 @@ class GuruController extends Controller
             'berkas' => 'Diupload',
         ]);
 
-        return redirect()->route('jadwal.guru');
+        return redirect()->route('jadwal.guru')->with('success', 'Data Berhasil diupload');
     }
 
     public function destroy($id)
@@ -82,6 +82,6 @@ class GuruController extends Controller
 
         Storage::delete([$berkas->rpp, $berkas->modul, $berkas->instrumen]);
 
-        return redirect('/guru/jadwal');
+        return redirect('/guru/jadwal')->with('success', 'Berkas Berhasil dihapus');
     }
 }

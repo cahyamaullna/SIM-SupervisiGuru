@@ -25,7 +25,7 @@ class JadwalController extends Controller
             'berkas' => 'Belum',
         ]);
 
-        return redirect('/kurikulum/jadwal');
+        return redirect('/kurikulum/jadwal')->with('success', 'Jadwal Berhasil dibuat');
     }
 
     public function edit($id)
@@ -70,6 +70,6 @@ class JadwalController extends Controller
 
         $jadwal->delete();
 
-        return redirect('/kurikulum/jadwal');
+        return redirect('/kurikulum/jadwal')->with('success', 'Jadwal Berhasil dihapus');
     }
 }
