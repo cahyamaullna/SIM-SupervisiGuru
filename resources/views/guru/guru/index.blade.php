@@ -58,7 +58,7 @@ $cek = count($jadwal);
       file:mr-4 file:py-2 file:px-4
       file:rounded-lg file:border-0
       file:text-sm file:font-semibold
-      file:bg-primary file:text-[#570DF8]
+      file:bg-violet-50
       file:h-full
       hover:file:bg-violet-100
     " />
@@ -66,7 +66,7 @@ $cek = count($jadwal);
       file:mr-4 file:py-2 file:px-4
       file:rounded-lg file:border-0
       file:text-sm file:font-semibold
-      file:bg-primary file:text-[#570DF8]
+      file:bg-violet-50
       file:h-full
       hover:file:bg-violet-100
     " />
@@ -74,7 +74,7 @@ $cek = count($jadwal);
       file:mr-4 file:py-2 file:px-4
       file:rounded-lg file:border-0
       file:text-sm file:font-semibold
-      file:bg-primary file:text-[#570DF8]
+      file:bg-violet-50
       file:h-full
       hover:file:bg-violet-100
     " />

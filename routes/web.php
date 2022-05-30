@@ -64,3 +64,5 @@ Route::prefix('kepsek')->middleware('kepsek')->group(function () {
     Route::get('/', [KepsekController::class, 'index']);
     Route::get('/hasil', [KepsekController::class, 'rekap']);
 });
+Route::get('/exportexcel', [KurikulumController::class, 'exportexcel'])->name('exportexcel');
+

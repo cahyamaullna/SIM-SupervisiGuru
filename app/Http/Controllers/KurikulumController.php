@@ -9,6 +9,8 @@ use App\Models\Rekap;
 use App\Models\BerkasGuru;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\RekapExport;
 
 class KurikulumController extends Controller
 {
@@ -89,5 +91,8 @@ class KurikulumController extends Controller
         ]);
 
         return redirect('/');
+    }
+    public function exportexcel(){
+        return Excel::download(new RekapExport, 'hasilsupervisi.xlsx');
     }
 }

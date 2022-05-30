@@ -13,7 +13,9 @@ $k = 0;
 $l = 0;
 
 @endphp
-
+<a href="/exportexcel" class="btn btn-sm btn-outline btn-secondary">Export</a>
+<br>
+<br>
 <div class="overflow-x-auto rounded-lg border mb-8">
     <table class="table table-compact w-full">
         <thead>
