@@ -7,13 +7,13 @@
 This application is made using the Laravel framework, to carry out web-based teacher supervision activities.
 made with love, tears and laughter from:
 
--Attar Rangga Hardiansyah
--Muhamad Cahya Maulana
--Yandi Aryana
--Muhamad Lathief G.
--Muhamad Yusril
--Reyfan Ibramsyah
--Mira Nur Awalia
+- Attar Rangga Hardiansyah
+- Muhamad Cahya Maulana
+- Yandi Aryana
+- Muhamad Lathief G.
+- Muhamad Yusril
+- Reyfan Ibramsyah
+- Mira Nur Awalia
 
 ### Additional Modul
 
